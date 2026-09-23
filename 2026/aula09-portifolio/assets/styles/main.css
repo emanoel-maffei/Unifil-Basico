@@ -1,0 +1,112 @@
+main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    text-align: center;
+
+    padding: 32px 0;
+}
+
+main .banner p {
+    font-size: 1.1rem;
+}
+
+main .banner a {
+    font-weight: bold;
+
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    
+    padding: 10px 12px;
+
+    border: solid 1px var(--light-color);
+    border-radius: 8px;
+}
+
+main {
+    background-color: var(--light-color);
+    min-height: 80vh;
+}
+
+main .catalogo {
+    padding: 32px 0;
+}
+
+main .catalogo h2 {
+    text-align: center;
+
+    margin: 0 0 32px;
+}
+
+main .catalogo .projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+main .catalogo .projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+
+    background-color: var(--light-color);
+    width: 300px;
+    height: 480px;
+    text-align: center;
+
+    padding: 32px;
+
+    border: solid 3px var(--dark-color);
+    border-radius: 16px;
+
+    transition: transform 100ms;
+}
+
+main .catalogo .projeto img {
+    height: 200px;
+    border-radius: 8px;
+}
+
+main .catalogo .projeto h3 {
+    font-weight: bolder;
+}
+
+main .catalogo .projeto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 92px;
+}
+
+main .catalogo .projeto a {
+    font-weight: bold;
+    
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    width: 100%;
+    text-decoration: none;
+    
+    padding: 12px 0;
+    
+    border: solid 1px var(--secondary-color);
+    border-radius: 12px;
+}
+
+main .catalogo .projeto :where(img, a) {
+    transition: transform 125ms;
+}
+
+main .catalogo .projeto :where(img, a):hover {
+    transform: scale(1.05);
+}

@@ -1,28 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-      <!-- 
-      
-            Se basear em:
+    <header>
+        <h1>Portfólio</h1>
+        <nav>
+            <a href="#sobre-mim">Sobre mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-            - https://jhurtado.com/
-            - https://zaradrei.com/
-            - http://itssharl.ee/about
-            - https://vanholtz.co/
-            - https://www.roxannecook.com/
-            - https://barretolopes.com/
-            - https://barretolopes.com/
-            - https://thainanprado.com.br/#home
-            - https://vanschneider.com/
-            - https://studiochenchen.com/
+    <main>
+        <section class="banner" id="sobre-mim">
+            <h1>Quem sou Eu?</h1>
+            <p>
+                Sou Emanoel Brian Maffei, me apaixonei pela programação as 13 anos e, o que começou com curiosidade, rapidamente se transformou em foco de carreira. 
+            </p>
+            <p>
+                Hoje tenho 16 anos, estou no último ano do Ensino Médio Técnico de Desenvolvimento de Sistemas.
+            </p>
 
-      -->
-      
+            <p>
+                Meu foco principal de estudo e atuação é o desenvolvimento Front-end, gosto de criar interfae modernas e resposivas, sempre prezando boas práticas. 
+            </p>
+            <a href="#projetos">Conheça meus projetos</a>
+        </section>
+
+        <section class="catalogo" id="projetos">
+            <h2>Meus Projetos</h2>
+
+            <div class="projetos">
+                <article class="projeto">
+                    <img src="assets/imgs/BookTable-login-escuro.jpg" alt="Imagem da interface">
+                    <h3>BookTable</h3>
+                    <p>
+                        Aplicação feita para acesso, download e leitura de livros de forma totalmente online e gratuita, desenvolvida inteiramente em Python.
+                    </p>
+                    <a href="https://github.com/emanoel-maffei/projeto-BookTable">
+                        Ver
+                    </a>
+                </article>
+                <article class="projeto">
+                    <img src="assets/imgs/Jornada-Viagens-interface.png" alt="Imagem da interface">
+                    <h3>Jornada Viagens</h3>
+                    <p>
+                        Uma aplicação web focada em oferecer os melhores descontos de viagens. 
+                    </p>
+                    <a href="">Ver</a>
+                </article>
+                <article class="projeto">
+                    <img src="assets/imgs/Space-Craft.png" alt="Imagem da interface">
+                    <h3>Space Craft</h3>
+                    <p>
+                        Um jogos de duas navinhas onde dois jogadores tentam sobreviver ficando dentro de uma zona segura. 
+                    </p>
+                    <a href="">Ver</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>TechStore</h3>
+            <p>Produtos de tecnologia com qualidade e segurança.</p>
+        </div>
+        <div id="contato">
+            <h3>Contato</h3>
+            <p>E-mail: emanoel@email.com</p>
+            <p>Telefone: (43) 99988-7766</p>
+        </div>
+        <div>
+            <h3>Atendimento</h3>
+            <p>Segunda a sexta-feira das 8h às 18h</p>
+        </div>
+    </footer>
+
 </body>
 </html>

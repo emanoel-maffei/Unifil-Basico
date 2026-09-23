@@ -1,0 +1,45 @@
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+
+:root {
+    --primary-color: #070011;
+    --secondary-color: #000661;
+    --terciary-color: #000111;
+
+    --light-color: #f0f0f0;
+    --dark-color: #0F0F0F;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+input,
+button {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+img {
+    user-select: none;
+}
+
+.icon {
+    color: red;
+}
